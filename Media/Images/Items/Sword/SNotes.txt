@@ -1,0 +1,6 @@
+0-7: Player walk
+8-10: Player throw
+11-16: Sword Swing
+sword_base: the basic full image of the sword
+sword_ground: the sprite that appears in game that the player can pick up
+sword_inventory: scaled up sprite that appears on inventory screen

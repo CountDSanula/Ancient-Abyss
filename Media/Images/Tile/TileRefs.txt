@@ -1,0 +1,16 @@
+Indexes for certain types of tiles:
+Index = Char = Color = desc
+0 = { = #050505 = top left concave corner
+1 = T = #040404 = top wall
+2 = } = #060606 = top right concave corner
+3 = . = #090909 = bottom right convex corner
+4 = , = #0a0a0a = bottom left convex corner
+6 = L = #030303 = left wall
+7 = F = #FFFFFF = floor
+8 = R = #020202 = right wall
+9 = > = #0b0b0b = top right convex corner
+10 = < = #0c0c0c = top left convex corner
+12 = [ = #070707 = bottom left concave corner
+13 = B = #010101 = bottom wall
+14 = ] = #080808 = bottom right concave corner
+32 = W = #BCBCBC= generic block/or default wall

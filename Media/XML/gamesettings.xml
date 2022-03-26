@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+<settings>
+	<game name="Ancient Abyss" />
+	<renderer width="1024" height="768"/>
+
+	<font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+	<!-- sprites -->
+	<sprites path="Media\Images">
+		<sprite name="tile" file="\Tile\tile0" ext ="png" frames="100"/>
+		<sprite name="chest" file="\Tile\chest0" ext ="png" frames="2"/>
+		<sprite name="player" file="\Player\Psprite_" ext="png" frames="17"/>
+		<sprite name="demon" file="\Demon\Dsprite_" ext="png" frames="47"/>
+		<sprite name="goblin" file="\Goblin\Gsprite_" ext="png" frames="47"/>
+		<sprite name="skeleton" file="\Skeleton\Ssprite_" ext="gif" frames="58"/>
+		<sprite name="boss" file="\Boss\boss" ext="png" frames="31"/>
+		<sprite name="stairs" file="stairs.png"/>
+		<sprite name="turret" file="turret.png"/>
+		<sprite name="greenline" file="greenline.png"/>
+		<sprite name="whiteline" file="whiteline.png"/>
+		<sprite name="redline" file="redline.png"/>
+		<sprite name="punch" file="punch.png"/>
+		<sprite name="bullet2" file="bullet2.png"/>
+		<sprite name="arrow" file="arrow.png"/>
+		<sprite name="largefireball" file="\LargeFireball\largefireball0.png"/>
+		<sprite name="demonfireball" file="\LargeFireball\largefireball_demon.png"/>
+		<sprite name="healthpotionground" file="\Items\HealthPotionGround.png"/>
+		<sprite name="speedpotionground" file="\Items\SpeedPotionGround.png"/>
+		<sprite name="healthpotioninventory" file="\Items\HealthPotionInventory.png"/>
+		<sprite name="speedpotioninventory" file="\Items\SpeedPotionInventory.png"/>
+		<sprite name="smoke" file="graysmoke.png"/>
+		<sprite name="spark" file="spark.png"/>
+		<sprite name="background" file="background.png"/>
+		<sprite name="textwheel" file="textwheel.png"/>
+		<sprite name="loading" file="ancientabyssLS_" ext="png" frames= "4"/>
+		<sprite name="death" file="death_screen.png"/>
+	<sprite name="sword" file="\Items\Sword\SPsprite_" ext="png" frames="17"/>
+	<sprite name="swordground" file="\Items\Sword\sword_ground.png"/>
+	<sprite name="swordinventory" file="\Items\Sword\sword_inventory.png"/>
+	<sprite name="cross" file="\Items\Cross\cross.png"/>
+	<sprite name="crossground" file="\Items\Cross\cross_ground.png"/>
+	<sprite name="crossinventory" file="\Items\Cross\cross_inventory.png"/>
+	<sprite name="creditstext" file="\Text\credits_text.png"/>
+	<sprite name="starttext" file="\Text\start_text.png"/>
+	<sprite name="healthoutline" file="\Player\health_back.png"/>
+	<sprite name="healthbar" file="\Player\healthbar_" ext="png" frames="11"/>
+	<sprite name="bosshealthbar" file="\Boss\bosshealth_" ext="png" frames="31"/>
+	<sprite name="lamp" file="\Lamp\lamp_" ext="png" frames="5"/>
+	<sprite name="tutorailtext1" file="\Text\tutorial_1.png"/>
+	<sprite name="tutorailtext2" file="\Text\tutorial_2.png"/>
+	<sprite name="tutorailtext3" file="\Text\tutorial_3.png"/>
+	<sprite name="tutorailtext4" file="\Text\tutorial_4.png"/>
+	<sprite name="tutorailtext5" file="\Text\tutorial_5.png"/>
+	<sprite name="winscreen" file="winscreen.png"/>
+
+	</sprites>
+
+
+	<!-- sound -->
+  
+
+   	 <sounds  path="Media\Sounds">
+		 <sound file="umph.wav" instances="8"/>
+		 <sound file="arrow.wav" instances="8"/>  
+		 <sound file="arrow_hit.wav" instances="8"/>
+		 <sound file="footstep_gravel.wav" instances="8"/>
+		 <sound file="goblin_death.wav" instances="8"/>
+		 <sound file="skeleton_death.wav" instances="8"/>
+		 <sound file="theme_music.wav" instances="8"/>
+		 <sound file="item_pickup.wav" instances="4"/>
+	 <sound file="falling_bones.wav" instances="8"/>
+	 <sound file="demon_death.wav" instances="8"/>
+	 <sound file="\Boss\fireball.wav" instances="16"/>
+	 <sound file="\Boss\demon_voice0.wav" instances="8"/>
+         <sound file="\Boss\demon_voice1.wav" instances="8"/>
+	 <sound file="\Boss\demon_voice2.wav" instances="8"/>
+	 <sound file="\Boss\demon_voice3.wav" instances="8"/>
+	 <sound file="\Boss\boss_death.wav" instances="8"/>
+	 <sound file="Weirder_Things_2.wav" instances="8"/>
+	 <sound file="demon_laugh.wav" instances="8"/>
+	 <sound file="\Player\player_grunt1.wav" instances="8"/>
+	 <sound file="\Player\player_grunt2.wav" instances="8"/>
+	 <sound file="\Player\player_grunt3.wav" instances="8"/>
+	 <sound file="\Player\player_grunt4.wav" instances="8"/>
+	 <sound file="\Player\player_grunt5.wav" instances="8"/>
+	 <sound file="sword_hit.wav" instances="8"/>
+	 <sound file="sword_woosh.wav" instances="8"/>
+	 <sound file="win_music.wav" instances="8"/>
+   </sounds>
+</settings>
+ 
+	
